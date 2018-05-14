@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="Inbox"/>
+    </group>
+
+    <item android:title="All labels">
+        <menu>
+            <item
+                android:id="@+id/nav_starred"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Starred"/>
+            <item
+                android:id="@+id/nav_sent"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Sent"/>
+
+            <item
+                android:id="@+id/nav_outbox"
+                android:icon="@drawable/ic_present_to_all_black_24dp"
+                android:title="Outbox"/>
+
+            <item
+                android:id="@+id/nav_drafts"
+                android:icon="@drawable/ic_insert_drive_file_black_24dp"
+                android:title="Drafts"/>
+
+            <item
+                android:id="@+id/nav_all_mail"
+                android:icon="@drawable/ic_mail_black_24dp"
+                android:title="All mail"/>
+
+            <item
+                android:id="@+id/nav_spam"
+                android:icon="@drawable/ic_warning_black_24dp"
+                android:title="Spam"/>
+
+            <item
+                android:id="@+id/nav_trash"
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:title="Trash"/>
+        </menu>
+    </item>
+
+    <item android:title="Google Apps">
+        <menu>
+            <item
+                android:id="@+id/nav_calendar"
+                android:icon="@drawable/ic_calendar_black_24dp"
+                android:title="Calendar"/>
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/ic_perm_contact_black_24dp"
+                android:title="Contacts"/>
+        </menu>
+    </item>
+
+</menu>
